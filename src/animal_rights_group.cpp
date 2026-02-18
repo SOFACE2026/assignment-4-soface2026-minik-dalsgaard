@@ -11,12 +11,18 @@ void AnimalRightsGroup::update(AnimalEvent event)
 {
     if (event == AnimalEvent::MonkeyFed)
     {
+        // Add case +1 case of fed monkey
+        n_monkeys_fed++;
     }
     else if (event == AnimalEvent::TigerScratched)
     {
+        // Add case +1 case of tiger scratched
+        n_tigers_scratched++;
     }
     else if (event == AnimalEvent::FishTeethCleaned)
     {
+        // Add case +1 case of fish cleaned
+        n_fish_teeth_brushed++;
     }
 }
 
